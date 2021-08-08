@@ -12,6 +12,7 @@ set SCRIPT=
 :loop
 
 REM Hunt around for python
+SET PYTHON_PATH=C:\Users\Kevin\AppData\Local\Programs\Python\Python39
 IF EXIST "python.exe" (
   SET SCRIPT=%RUN_KOANS%
 ) ELSE (
